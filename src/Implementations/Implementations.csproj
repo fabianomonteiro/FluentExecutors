@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>FluentExecutors.Implementations</AssemblyName>
+    <RootNamespace>FluentExecutors.Implementations</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Derivations\Derivations.csproj" />
+    <ProjectReference Include="..\FluentExecutors\Executors.csproj" />
+  </ItemGroup>
+
+</Project>
